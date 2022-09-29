@@ -30,6 +30,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Blog Stylesheet -->
+    <link rel="stylesheet" href="css/blog-overview.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -64,6 +68,7 @@
                 <a href="#project" class="nav-item nav-link">Projects</a>
                 <a href="#team" class="nav-item nav-link">Team</a>
                 <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -79,7 +84,7 @@
                     <h3 class="text-primary mb-3">I'm</h3>
                     <h1 class="display-3 mb-3">Daniel Roma</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">FullStack Web Developer, .NET Developer, Backend Developer</div>
+                    <div class="typed-text d-none">FullStack Web Developer, .NET Developer, C# Developer, Backend Developer, Build and Release Engineer</div>
                     <div class="d-flex align-items-center pt-5">
                         <a href="https://funkymonk8111.github.io/resume/" class="btn btn-primary py-3 px-4 me-5">Download CV/Resume</a>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
@@ -566,6 +571,80 @@
     </div>
     <!-- Testimonial End -->
 
+    <!-- Blog Start -->
+    
+   <header class="header--type2" data-background="images/blog.jpg" data-height="35%" style="background-image: url(images/blog.jpg); min-height: 303.8px; -webkit-user-select: auto;">
+   <div class="inner" style="-webkit-user-select: auto;">
+      <div class="container" style="-webkit-user-select: auto;">
+         <div class="row" style="-webkit-user-select: auto;">
+            <div class="col-md-10" style="-webkit-user-select: auto;">
+               <section class="ct-page_title" style="-webkit-user-select: auto;">
+                  <div class="h1" style="-webkit-user-select: auto;">
+                     Blog
+                  </div>
+                  <div class="ct-page_title-content" style="-webkit-user-select: auto;"></div>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+<div class="container ct-u-paddingTop40 ct-u-paddingBottom100">
+   <div class="row">
+      <div class="col-md-12 ct-content">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="theBlogGrid">
+                     <ul class="row blogGrid" id="blogGrid">
+                        <li class="col-xs-12 col-sm-6 col-md-3 blog-inner">
+                           <div class="imgHolder">
+                              <img alt="Building in WebCorpCo CMS 8" class="grid-image img-responsive" src="images/blog-4.jpg">
+                              <div class="description-box animateBottomName">
+                                 <p>Building in WebCorpCo CMS 8</p>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 blog-inner">
+                           <div class="imgHolder">
+                              <img alt="WebCorpCo Named to Inc. 5000" class="grid-image img-responsive" src="images/blog-3.jpg">
+                              <div class="description-box animateBottomName">
+                                 <p>WebCorpCo Named to Inc. 5000</p>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 blog-inner">
+                           <div class="imgHolder">
+                              <img alt="What's New in WebCorpCo CMS 8" class="grid-image img-responsive" src="images/blog-2.jpg">
+                              <div class="description-box animateBottomName">
+                                 <p>What's New in WebCorpCo CMS 8</p>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </li>
+                        <li class="col-xs-12 col-sm-6 col-md-3 blog-inner">
+                           <div class="imgHolder">
+                              <img alt="WebCorpCo CMS 8 Launches" class="grid-image img-responsive" src="images/blog-1.jpg">
+                              <div class="description-box animateBottomName">
+                                 <p>WebCorpCo CMS 8 Launches</p>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                        </li>
+                     </ul>
+                     <div class="blue-border blog-blue-border"></div>
+                     <div class="clearfix"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+    <!-- Blog End -->
 
     <!-- Contact Start -->
     <div class="container-xxl pb-5" id="contact">
@@ -682,8 +761,10 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Template Javascript -->
+    
     <script src="js/main.js"></script>
 </body>
 
